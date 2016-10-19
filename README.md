@@ -12,7 +12,7 @@ Before ever making any changes to the registry it's a good idea to make a backup
 
 1. Press  Windows Button + R, type “regedit”, and then click OK.
 2. Navigate to the following registry subkey:
-..* HKEY_LOCAL_MACHINE > SOFTWARE > Microsoft > Windows > CurrentVersion > SideBySide
+   HKEY_LOCAL_MACHINE > SOFTWARE > Microsoft > Windows > CurrentVersion > SideBySide
 3. Right-click, select NEW > DWORD (32 bit) Value
 4. Type PreferExternalManifest, and then press ENTER.
 5. Right-click PreferExternalManifest, and then click Modify.
